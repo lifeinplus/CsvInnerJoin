@@ -9,7 +9,7 @@ import com.adenisov.model.ConfigBean;
 
 public class PropertiesManager {
 
-	private static final String PROPERTIES_FILE = "config.properties";
+	private static final String PROPERTIES_FILE = "res\\config.properties";
 	
 	public ConfigBean loadProperties() throws IOException {
 		
